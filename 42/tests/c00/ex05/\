@@ -1,0 +1,37 @@
+// ecrire une fonction qui affiche ds l'ordre croissant, les diff combinaison (croissant) de trois chiffres.
+
+
+#include <unistd.h>
+
+void	ft_print_comb(void);
+void	ft_putchar(char a);
+
+void	ft_print_comb(void)
+{
+	int	i;
+	int	j;
+	int	k;
+
+	i = 0;
+	j = 1;
+	k = 2;
+	while ( i <= 9 && j <= 9 && k <= 9)
+	{
+		 ft_putchar('0' + i);
+		 ft_putchar('0' + j);
+		 ft_putchar('0' + k);
+		 ft_putchar(', ');
+		 k++;
+		 if (k == j)
+		 {
+			 j++;
+			 if (j == i)
+				 i++;
+		 }
+	}
+}
+int main ()
+{
+	ft_print_comb();
+	return 0;
+}
