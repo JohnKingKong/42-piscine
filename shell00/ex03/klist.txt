@@ -1,5 +1,0 @@
-Credentials cache: API:DE47AA07-4BC4-4654-93D5-E35C753EFA54
-        Principal: jvigneau@42QUEBEC.COM
-
-  Issued                Expires               Principal
-Aug 23 19:36:59 2021  Aug 24 05:36:55 2021  krbtgt/42QUEBEC.COM@42QUEBEC.COM
